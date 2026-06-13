@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cal-container">
+      <div class="result" id="result">0</div>
+
+      <div class="keypad-cal">
+        <div class="keypad keypad-fn" id="keypad_del" aria-valuetext="DEL">DEL</div>
+        <div class="keypad keypad-fn" id="keypad_reset" aria-valuetext="Reset">AC</div>
+        <div class="keypad keypad-op" id="keypad_div" aria-valuetext="/">÷</div>
+        <div class="keypad keypad-op" id="keypad_mul" aria-valuetext="x">×</div>
+
+        <div class="keypad" id="keypad_7" aria-valuetext="7">7</div>
+        <div class="keypad" id="keypad_8" aria-valuetext="8">8</div>
+        <div class="keypad" id="keypad_9" aria-valuetext="9">9</div>
+        <div class="keypad keypad-op" id="keypad_minus" aria-valuetext="-">−</div>
+
+        <div class="keypad" id="keypad_4" aria-valuetext="4">4</div>
+        <div class="keypad" id="keypad_5" aria-valuetext="5">5</div>
+        <div class="keypad" id="keypad_6" aria-valuetext="6">6</div>
+        <div class="keypad keypad-op" id="keypad_plus" aria-valuetext="+">+</div>
+
+        <div class="keypad" id="keypad_1" aria-valuetext="1">1</div>
+        <div class="keypad" id="keypad_2" aria-valuetext="2">2</div>
+        <div class="keypad" id="keypad_3" aria-valuetext="3">3</div>
+        <div class="keypad keypad-equal" id="keypad_equal" aria-valuetext="=" rowspan="2">=</div>
+
+        <div class="keypad" id="keypad_0" aria-valuetext="0" style="grid-column: 1/3;">0</div>
+        <div class="keypad" id="keypad_dot" aria-valuetext=".">.</div>
+      </div>
+    </div>
+
+    <script src="operator.js"></script>
+</body>
+</html>
